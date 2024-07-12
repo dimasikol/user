@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %} default title {% endblock title %}</title>
+    {% block header %} {% include 'include/headers.html' %} {% endblock header %}
+</head>
+<body>
+{% block nav %} {% endblock nav %}
+{% block filter %} {% endblock filter %}
+{% block slide %}  {% endblock slide %}
+{% block content %} {% endblock content %}
+{% block content2 %} {% endblock content2 %}
+
+{% block js %} {% endblock js %}
+</body>
+</html>
