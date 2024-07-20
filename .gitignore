@@ -1,3 +1,5 @@
 venv
 .idea
 tesing.py
+data.sqlite3
+ggi
